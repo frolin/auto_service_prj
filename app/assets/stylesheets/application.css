@@ -1,0 +1,7 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets ...
+ * ...
+ *= require_tree .
+ *= require_self
+
+*/

@@ -1,0 +1,92 @@
+
+header {
+  min-height: 630px;
+  background-image: url("/images/header_pic.png");
+  background-repeat:repeat-x;
+  background-position: 50% -40px;
+  position: relative;
+}
+
+
+.header-top {    
+  
+    min-height: 97px;
+    box-shadow: rgba(255, 255, 255, .15) 0 0 0 1px;
+    background-color: rgba(0,0,0,.4); 
+    padding-top: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.header-top a {
+  font-family: "BebasRegular", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 21px;
+  border-bottom: #fff dashed 1px; 
+  
+}
+
+.header-top a:hover {
+  border-bottom: transparent dashed 1px;
+  font-family: "BebasRegular", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all, .2s;
+}
+
+.address {
+  padding: 0 50px;
+  background-image: url("/images/address_point_pic.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+
+}
+
+.sity_name {
+    font-family: "BebasBold", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #d12f22;
+    line-height: 27px;  
+}  
+
+.header-top a .street {
+  
+
+}
+
+.header-top .logo_wrap {
+  position: relative;
+  width: 197px;
+  margin:auto;
+}
+
+.header-top .logo {
+  position: absolute;
+  // width: 197px;
+  margin-top: -20px;
+  a {border-bottom: 0;}
+}
+
+
+.header-top .phone {
+  font-family: "BebasBold", sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #d12f22;
+  line-height: 27px; 
+  text-align: right;
+  margin-top: 10px;
+ 
+}
+
+.header-top .phone .operator_code{
+  color: white;
+}
+
+.header-top .call_btn {
+  
+  // margin-right: 60px;
+}

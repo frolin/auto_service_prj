@@ -1,0 +1,47 @@
+body {
+
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  background-color:#191919;
+
+}
+
+
+ul {
+  height: 300px;  
+  
+}
+
+ul li {
+  display: inline-block;
+  width: 80px;
+  background-color:blue;
+
+}
+ .menu_icon {
+	background-color:red;
+	background: url('/images/menu_icons_sprite.png');
+}
+ul li span.title {
+	
+	}
+
+#map {
+  height: 420px;
+  position: absolute;
+  top:0;
+  z-index: 0;
+  width: 100%;
+}
+
+#map .ymaps-controls-lefttop {
+  left: 430px;
+  top: 110px;
+}
+
+#map .ymaps-controls-righttop {
+  right: 430px;
+  top: 110px;
+}

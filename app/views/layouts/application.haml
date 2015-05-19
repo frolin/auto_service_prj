@@ -1,0 +1,9 @@
+!!!
+%html{:lang => "en-US"}
+  %head
+    = stylesheet_link_tag '/assets/application' 
+    = javascript_include_tag '/assets/application'
+    %title Sass Teamplate
+  = partial "home_page/header"
+  %body
+    = yield
