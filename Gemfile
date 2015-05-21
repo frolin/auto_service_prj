@@ -12,7 +12,6 @@
 
 # Project requirements
 gem 'rake'
-gem "rack-livereload", :group => :development
 
 # Component requirements
 gem 'padrino-sprockets', :require => ['padrino/sprockets'],

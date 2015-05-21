@@ -5,7 +5,7 @@ module SassInitializer
     # Store SASS files (by default) within 'app/stylesheets'.
     require 'sass/plugin/rack'
     Sass::Plugin.options[:template_location] = Padrino.root("app/stylesheets")
-    Sass::Plugin.options[:css_location] = Padrino.root("public/stylesheets")
+    Sass::Plugin.options[:css_location] = Padrino.root("public/ ")
     app.use Sass::Plugin::Rack
   end
 end
