@@ -30,7 +30,6 @@ ActiveRecord::Base.configurations[:development] = {
       :encoding => 'utf8',
       :database => 'd7tchgvckp3sh8',
       :username => 'tllzikayvywiif',
-      :password => "",
       :host     => 'ec2-54-217-202-108.eu-west-1.compute.amazonaws.com',
       :port     => '5432'
   }
