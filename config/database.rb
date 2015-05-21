@@ -28,10 +28,11 @@ ActiveRecord::Base.configurations[:development] = {
   ActiveRecord::Base.configurations[:production] = {
       :adapter  => 'postgresql',
       :encoding => 'utf8',
-      :database => 'autofrezer-dev',
-      :username => 'resting-nobly-5734',
+      :database => 'd7tchgvckp3sh8',
+      :username => 'tllzikayvywiif',
       :password => "",
-      :host     => 'localhost'
+      :host     => 'ec2-54-217-202-108.eu-west-1.compute.amazonaws.com',
+      :port     => '5432'
   }
 
 
