@@ -8,4 +8,4 @@ require File.expand_path("../config/boot.rb", __FILE__)
 require 'rack-livereload'
 
 run Padrino.application
-# use Rack::LiveReload
+use Rack::LiveReload

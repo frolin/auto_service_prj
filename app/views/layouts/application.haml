@@ -1,9 +1,13 @@
 !!!
 %html{:lang => "en-US"}
   %head
-    = stylesheet_link_tag '/assets/application' 
+    = stylesheet_link_tag '/assets/application'
     = javascript_include_tag '/assets/application'
     %title Sass Teamplate
-  = partial "home_page/header"
+
   %body
+    #wrapper
+      = partial "home_page/header"
+      = partial "layouts/header-under"
+      = partial "layouts/navbar.html"
     = yield
