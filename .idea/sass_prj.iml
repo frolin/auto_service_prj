@@ -32,8 +32,12 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="POpen4 (v0.1.4, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="Platform (v0.4.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.3.7, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.9.9, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.23, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="excon (v0.45.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
@@ -62,6 +66,7 @@
     <orderEntry type="library" scope="PROVIDED" name="padrino-mailer (v0.12.5, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="padrino-sprockets (v0.0.3@ae1886, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="padrino-support (v0.12.5, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg (v0.18.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.5, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-livereload (v0.3.15, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />

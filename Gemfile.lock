@@ -12,6 +12,13 @@ GEM
       Platform (>= 0.4.0)
       open4
     Platform (0.4.0)
+    activemodel (4.2.1)
+      activesupport (= 4.2.1)
+      builder (~> 3.1)
+    activerecord (4.2.1)
+      activemodel (= 4.2.1)
+      activesupport (= 4.2.1)
+      arel (~> 6.0)
     activesupport (4.2.1)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
@@ -19,6 +26,8 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.7)
+    arel (6.0.0)
+    builder (3.2.2)
     domain_name (0.5.23)
       unf (>= 0.0.5, < 1.0.0)
     excon (0.45.3)
@@ -88,6 +97,7 @@ GEM
       padrino-core (= 0.12.5)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
+    pg (0.18.2)
     polyglot (0.3.5)
     rack (1.5.3)
     rack-livereload (0.3.15)
@@ -138,10 +148,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord (>= 3.1)
   haml
   heroku
   padrino (= 0.12.5)
   padrino-sprockets!
+  pg
   rack-livereload
   rack-test
   rake
