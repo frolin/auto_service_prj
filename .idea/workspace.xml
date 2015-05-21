@@ -29,16 +29,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.5245665">
       <split-first>
         <leaf>
-          <file leaf-file-name="_navbar.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/layouts/_navbar.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="_header-under.haml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/_header-under.haml">
               <provider selected="true" editor-type-id="text-editor">
@@ -72,12 +62,19 @@
           <file leaf-file-name="connection_pool_management_middleware.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/connection_pool_management_middleware.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.18367347">
-                  <caret line="5" column="2" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="7" />
-                  <folding>
-                    <marker date="1432223947956" expanded="true" signature="92:176" placeholder=" ... end" />
-                    <marker date="1432223947956" expanded="true" signature="150:168" placeholder="{ ... }" />
-                  </folding>
+                <state vertical-scroll-proportion="0.036734693">
+                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sass_initializer.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/sass_initializer.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="3" column="54" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="54" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -986,14 +983,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sass_initializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/connection_pool_management_middleware.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18367347">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <marker date="1432223947956" expanded="true" signature="92:176" placeholder=" ... end" />
-            <marker date="1432223947956" expanded="true" signature="150:168" placeholder="{ ... }" />
-          </folding>
+        <state vertical-scroll-proportion="0.036734693">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
