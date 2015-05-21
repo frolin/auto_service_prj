@@ -7,8 +7,9 @@
     display: inline-block!important;
     width: 20%;
   vertical-align: middle;
+  border-left: 1px solid rgba(202, 202, 202, 0.77);
   }
-
+.nav>li:last-child {border-right: 1px solid rgba(202, 202, 202, 0.77); }
 #menu-nav>li>a {
   font-family: "BebasBold", sans-serif;
   font-size: 24px;
