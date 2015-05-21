@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764973fe-d4dd-4c93-81ea-6297fed7642e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/connection_pool_management_middleware.rb" afterPath="$PROJECT_DIR$/lib/connection_pool_management_middleware.rb" />
     </list>
     <ignored path="sass_prj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,16 +39,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.haml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="_header-under.haml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/_header-under.haml">
               <provider selected="true" editor-type-id="text-editor">
@@ -69,12 +59,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="config.ru" pinned="false" current-in-tab="true">
+          <file leaf-file-name="config.ru" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config.ru">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.25714287">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="connection_pool_management_middleware.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/connection_pool_management_middleware.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.18367347">
+                  <caret line="5" column="2" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="7" />
+                  <folding>
+                    <marker date="1432223947956" expanded="true" signature="92:176" placeholder=" ... end" />
+                    <marker date="1432223947956" expanded="true" signature="150:168" placeholder="{ ... }" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -221,6 +224,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.rb" />
         <option value="$PROJECT_DIR$/config.ru" />
+        <option value="$PROJECT_DIR$/lib/connection_pool_management_middleware.rb" />
       </list>
     </option>
   </component>
@@ -365,6 +369,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass_prj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass_prj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -962,9 +980,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25714287">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/connection_pool_management_middleware.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18367347">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <marker date="1432223947956" expanded="true" signature="92:176" placeholder=" ... end" />
+            <marker date="1432223947956" expanded="true" signature="150:168" placeholder="{ ... }" />
+          </folding>
         </state>
       </provider>
     </entry>
