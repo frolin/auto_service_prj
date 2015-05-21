@@ -22,7 +22,7 @@ gem 'yui-compressor', '0.9.6'
 
 gem 'sass'
 gem 'haml'
-gem 'activerecord', '>= 3.1', :require => 'active_record'
+# gem 'activerecord', '>= 3.1', :require => 'active_record'
 # gem 'sqlite3'
 
 # Test requirements
