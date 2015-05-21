@@ -28,8 +28,8 @@ ActiveRecord::Base.configurations[:development] = {
   ActiveRecord::Base.configurations[:production] = {
       :adapter  => 'postgresql',
       :encoding => 'utf8',
-      :database => 'postgres',
-      :username => 'root',
+      :database => 'autofrezer-dev',
+      :username => 'resting-nobly-5734',
       :password => "",
       :host     => 'localhost'
   }
