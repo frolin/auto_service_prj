@@ -25,7 +25,7 @@ header {
 
 
 .header-top a:hover {
-  border-bottom: transparent dashed 1px;
+  border-bottom: #fff dashed 1px;
   font-family: "BebasRegular", sans-serif;
   color: #fff;
   text-decoration: none;
@@ -52,37 +52,36 @@ header {
 .header-top a  {
   font-family: "BebasRegular", sans-serif;
   text-transform: uppercase;
-  border-bottom: transparent dashed 1px;
-  color: #fff;
+  border-bottom: rgba(255, 255, 255, 0.8) dashed 1px;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   transition: all, .2s;
 }
+
+.header-top a:hover ,
+.header-top a:focus {
+  font-family: "BebasRegular", sans-serif;
+  text-transform: uppercase;
+  border-bottom: rgba(255, 255, 255, 1) dashed 1px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  transition: all, .2s;
+}
+
 .address a {
-  color: rgba(255, 255, 255, 0.8);
   font-size: 1.8em;
-  border-bottom: #fff dashed 1px;
+
 
 }
 
 .phone a.call_btn{
-  color: rgba(255, 255, 255, 0.8);
+
   font-size: .75em;
-  border-bottom: #fff dashed 1px;
-}
-.phone a:hover.call_btn {
-  border-bottom: transparent dashed 1px;
-  font-family: "BebasRegular", sans-serif;
-  color: #fff;
-  text-decoration: none;
-  transition: all, .2s;}
-
-.header-top .logo_wrap {
-  //position: relative;
-  //width: 197px;
-  //margin:auto;
-
 
 }
+
+
+
 
 .header-top .logo {
   //position: absolute;
@@ -90,15 +89,10 @@ header {
   //margin-top: -20px;
   a {border-bottom: 0;}
 }
-  .logo  {
 
-    padding: 1%;
-
-}
 
 .center {
   text-align: center  ;
-
 
 }
 
@@ -118,7 +112,3 @@ header {
   color: white;
 }
 
-.header-top .call_btn {
-
-  // margin-right: 60px;
-}
