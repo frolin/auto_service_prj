@@ -16,6 +16,11 @@ header {
     //padding-top: 16px;
     position: relative;
     z-index: 1;
+  -webkit-transition: all, 1s;
+  -moz-transition: all, 1s;
+  -ms-transition: all, 1s;
+  -o-transition: all, 1s;
+  transition: all, 1s;
 }
 
 
@@ -38,15 +43,19 @@ header {
 
 .sity_name {
     font-family: "BebasBold", sans-serif;
-    font-size: 2.5em;
+    font-size: 3em;
     text-transform: uppercase;
     color: #d12f22;
-    line-height: 27px;  
+    line-height: 1em;
 }  
 
 .header-top a  {
   font-family: "BebasRegular", sans-serif;
   text-transform: uppercase;
+  border-bottom: transparent dashed 1px;
+  color: #fff;
+  text-decoration: none;
+  transition: all, .2s;
 }
 .address a {
   color: rgba(255, 255, 255, 0.8);
@@ -57,10 +66,15 @@ header {
 
 .phone a.call_btn{
   color: rgba(255, 255, 255, 0.8);
-  font-size: .8em;
+  font-size: .75em;
   border-bottom: #fff dashed 1px;
 }
-
+.phone a:hover.call_btn {
+  border-bottom: transparent dashed 1px;
+  font-family: "BebasRegular", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  transition: all, .2s;}
 
 .header-top .logo_wrap {
   //position: relative;
@@ -90,7 +104,7 @@ header {
 
 .header-top .phone {
   font-family: "BebasBold", sans-serif;
-  font-size: 2.5em;
+  font-size: 2.3em;
   text-transform: uppercase;
   color: #d12f22;
   line-height: 1em;
@@ -105,6 +119,6 @@ header {
 }
 
 .header-top .call_btn {
-  
+
   // margin-right: 60px;
 }
