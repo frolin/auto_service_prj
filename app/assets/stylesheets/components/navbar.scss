@@ -1,15 +1,19 @@
 .nav {
   width: 100%;
   text-align: center;
+  background-color: rgba(41, 42, 40, 0.12);
+  display: inline-table;
 }
 .nav>li {
     float: none;
     display: inline-block!important;
     width: 20%;
   vertical-align: middle;
+  background-color: #fff;
   border-left: 1px solid rgba(202, 202, 202, 0.77);
   }
 .nav>li:last-child {border-right: 1px solid rgba(202, 202, 202, 0.77); }
+
 #menu-nav>li>a {
   font-family: "BebasBold", sans-serif;
   font-size: 24px;
@@ -17,6 +21,7 @@
   color: #122b40;
   text-transform: uppercase;
   padding: 24px;
+  line-height: 20px;
 }
 
 
@@ -31,6 +36,9 @@
   padding: 24px;
 }
 
+ul #menu-nav {
+
+}
 
 ul #menu-nav li {
 

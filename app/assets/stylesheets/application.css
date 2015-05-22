@@ -1,7 +1,10 @@
 /*
  * This is a manifest file that'll automatically include all the stylesheets ...
  * ...
+
+ *= require 'components/media.scss'
  *= require_tree .
  *= require_self
 
 */
+

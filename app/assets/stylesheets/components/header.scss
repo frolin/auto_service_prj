@@ -18,68 +18,83 @@ header {
     z-index: 1;
 }
 
-.header-top a {
-  font-family: "BebasRegular", sans-serif;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-size: 21px;
-  border-bottom: #fff dashed 1px; 
-  
-}
 
 .header-top a:hover {
   border-bottom: transparent dashed 1px;
   font-family: "BebasRegular", sans-serif;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   transition: all, .2s;
 }
 
 .address {
-  padding: 0 50px;
-  background-image: url("/images/address_point_pic.png");
-  background-position: top left;
-  background-repeat: no-repeat;
-  margin-top: 10px;
+
+  //background-image: url("");
+  //background-position: top left;
+  //background-repeat: no-repeat;
+  //margin-top: 10px;
 
 }
 
 .sity_name {
     font-family: "BebasBold", sans-serif;
-    font-size: 32px;
+    font-size: 2.5em;
     text-transform: uppercase;
     color: #d12f22;
     line-height: 27px;  
 }  
 
-.header-top a .street {
-  
+.header-top a  {
+  font-family: "BebasRegular", sans-serif;
+  text-transform: uppercase;
+}
+.address a {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.8em;
+  border-bottom: #fff dashed 1px;
 
 }
 
+.phone a.call_btn{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: .8em;
+  border-bottom: #fff dashed 1px;
+}
+
+
 .header-top .logo_wrap {
-  position: relative;
-  width: 197px;
-  margin:auto;
+  //position: relative;
+  //width: 197px;
+  //margin:auto;
 
 
 }
 
 .header-top .logo {
-  position: absolute;
-  // width: 197px;
-  margin-top: -20px;
+  //position: absolute;
+
+  //margin-top: -20px;
   a {border-bottom: 0;}
 }
+  .logo  {
 
+    padding: 1%;
+
+}
+
+.center {
+  text-align: center  ;
+
+
+}
 
 .header-top .phone {
   font-family: "BebasBold", sans-serif;
-  font-size: 32px;
+  font-size: 2.5em;
   text-transform: uppercase;
   color: #d12f22;
-  line-height: 27px; 
-  text-align: right;
+  line-height: 1em;
+  //text-align: right;
   margin-top: 10px;
   padding-bottom: 10px;
  
